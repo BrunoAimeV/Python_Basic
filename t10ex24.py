@@ -12,7 +12,8 @@ def crear_punts(l):
     for e in l:
         print("{} \n".format(s*e))
         s="."
-
+        
+#Programa principal
 a = llegir_llista()
 b=llegir_llista()
 crear_punts(a)
